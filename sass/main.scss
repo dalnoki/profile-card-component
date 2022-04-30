@@ -17,24 +17,27 @@ body {
 }
 
 .card {
-  background-size: 100% 8.75rem;
+  background-size: 100% 37%;
   background: white url("../images/bg-pattern-card.svg") no-repeat;
   border-radius: .9rem;
+  box-shadow: .4rem .5rem 1.125rem 0 #6e6c6ccc;
   color: #6B7082;
   max-height: 23.375rem;
   margin: 9.2rem auto;
+  overflow: hidden;
   padding-top: 13rem;
   position: relative;
   text-align: center;
   width: 20.375rem;
 
   @media screen and (min-width: 567px) {
+    margin: 10.81rem auto;
     width: 21.875rem;
   }
 
   hr {
     border: solid 1px #E8E9EC;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   &__footer {
@@ -55,7 +58,7 @@ body {
 
   &__location {
     font-size: .875rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   &__name {
@@ -69,7 +72,7 @@ body {
   }
 
   &__stat {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 
     span {
       color: #2E3349;
